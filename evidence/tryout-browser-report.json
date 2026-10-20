@@ -1,0 +1,10 @@
+{
+  "kind": "automated-feedback-form-test-not-human-trial",
+  "checks": [
+    "Required fields and actual-user attestation gate export; mobile fits",
+    "Local draft restores after reload",
+    "Simulated export produces parseable local JSON; temporary fake test response is deleted, never counted as human feedback"
+  ],
+  "errors": [],
+  "ok": true
+}

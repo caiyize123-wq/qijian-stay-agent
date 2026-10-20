@@ -1,16 +1,11 @@
 {
   "version": "0.1.0",
-  "createdAt": "2026-10-20T13:05:13.324Z",
+  "createdAt": "2026-10-20T13:06:59.423Z",
   "files": [
     {
       "file": ".env.example",
       "bytes": 376,
       "sha256": "226427c4d25d4808c55d98766504884e9ae35a4d0913714f0b50d8b41965ed30"
-    },
-    {
-      "file": ".github/workflows/verify.yml",
-      "bytes": 453,
-      "sha256": "5bb76d3b66e19a3a51d5e7dc0410abb5676b7c55c5ca652c942fab0e4ce6e055"
     },
     {
       "file": ".gitignore",
@@ -24,8 +19,8 @@
     },
     {
       "file": "README.md",
-      "bytes": 2295,
-      "sha256": "41afbb55e3786452b74bdd7dcc452d9f92dbfa389152de16390d6144c88706f2"
+      "bytes": 2604,
+      "sha256": "4cb8c80d50d4693d448749a14435053f3e34b2964323babc14554657cfd317c1"
     },
     {
       "file": "REPRODUCE.md",
@@ -34,13 +29,18 @@
     },
     {
       "file": "SUBMISSION.md",
-      "bytes": 5245,
-      "sha256": "1edd70dbcf89d67f620e190a18717dcfb461e2d3ba0acc0eaad59db6a979c337"
+      "bytes": 5341,
+      "sha256": "df4ee73a64c45621e667534cb4a1f0eadb91278caffeb79b9eb19a56ae5290fc"
     },
     {
       "file": "THIRD_PARTY_NOTICES.md",
       "bytes": 1222,
       "sha256": "187ca697334e771be1b1c90c9bd2d9160db326f629f20506675ef0a6b2cd9cd0"
+    },
+    {
+      "file": "ci-templates/verify.yml",
+      "bytes": 453,
+      "sha256": "5bb76d3b66e19a3a51d5e7dc0410abb5676b7c55c5ca652c942fab0e4ce6e055"
     },
     {
       "file": "dist/app.js",
@@ -243,6 +243,11 @@
       "sha256": "631f66c4cfaa1778570c06956bfe731f0922ffa9dd4242174f68746ccb3f490e"
     },
     {
+      "file": "evidence/tryout-browser-report.json",
+      "bytes": 353,
+      "sha256": "fbcbbd2208e21fa348dcb9957e297729d7d2736f14f7f2dfd1bbc078c7c33b00"
+    },
+    {
       "file": "lib/agent.mjs",
       "bytes": 11603,
       "sha256": "fa57604e71670acffe8cf6c8b4b0b3ab14a3a5984034300e121609be58ed52c2"
@@ -331,11 +336,6 @@
       "file": "media/plan-mobile.png",
       "bytes": 58036,
       "sha256": "aee81ae2ae9b06e536ddffdceccaf50269d0e4ebd364b10ae4a95b1c159537a3"
-    },
-    {
-      "file": "media/raw/page@00a36a614f7101d7565282376b873081.webm",
-      "bytes": 2777881,
-      "sha256": "74bbc7991c555f1426fd2792ee1d2ba0377b8d8307fc5fa230f88fe7421238bf"
     },
     {
       "file": "media/real-walkthrough.mp4",
