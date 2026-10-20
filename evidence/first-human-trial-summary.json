@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-20",
+  "kind": "anonymized-human-trial-summary",
+  "participants": 1,
+  "selfReportedTaskCompletion": 3,
+  "usabilityVerdict": "failed",
+  "mainFindings": [
+    "试用入口没有传递填写的酒店名称，进入默认样例",
+    "酒店与项目图片覆盖不足，缺图状态影响体验"
+  ],
+  "interpretation": "任务完成自报不等于产品可用。此次负面反馈计为失败，不能当作满意或采纳证据。",
+  "fixStatus": "automated regression passed; participant has not reaccepted"
+}

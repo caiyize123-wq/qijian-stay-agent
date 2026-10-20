@@ -6,7 +6,7 @@
 
 ![栖间首页](media/home-desktop.png)
 
-[下载可复现包与实际操作演示](https://github.com/caiyize123-wq/qijian-stay-agent/releases/tag/v0.1.0)
+[下载可复现包与实际操作演示](https://github.com/caiyize123-wq/qijian-stay-agent/releases/tag/v0.1.1)
 
 ## 可以做什么
 
@@ -43,3 +43,7 @@ npm start
 ## 独立运行检查
 
 `node scripts/smoke-release.mjs` 可在空数据库下检查启动、规则安排与保存。它不调用模型，不计为百炼成功证据。`ci-templates/verify.yml` 是可选云端检查模板；当前仓库授权不允许创建自动工作流，因此尚未运行云端检查。
+
+## 首次真人反馈后的入口修复
+
+未选酒店时先搜索，试用页携带城市与酒店名；搜索其他酒店与查当前体验分开。已匹配的酒店整体图继续保留，标明非项目实景。项目实景图仍不完整；第一次真人试用未通过，自动回归通过不代表真人已接受修复。

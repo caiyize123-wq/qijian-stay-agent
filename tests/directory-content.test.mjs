@@ -10,6 +10,13 @@ const draft={intro:'仅供测试的已核对简介',story:'仅供测试的内容
 const result=items=>({provider:'flyai',kind:'hotel',queriedAt:new Date().toISOString(),items});
 function setup(){const db=new DatabaseSync(':memory:');return {db,directory:createHotelDirectory(db),store:createHotelContentStore(db)};}
 test('search requires city and keyword; command-like text is still passed as data',()=>{assert.throws(()=>validateHotelSearch({city:'',keyword:'hotel'}));assert.deepEqual(validateHotelSearch({city:'上海市',keyword:' a;$(b) '}),{city:'上海市',keyword:'a;$(b)'});});
+test('a deep hotel keeps its matched platform overview image across an image-less refresh without lending it to a branch',()=>{
+ const {db,directory}=setup(),h=getHotelProfile('andaz-xiamen').hotel;
+ const item={id:'andaz-image-fixture',name:h.name,address:h.address,image:'https://example.com/andaz-overview.jpg',link:'https://example.com/hotel'};
+ const [first]=directory.ingest(result([item]),h.city);assert.equal(first.openHotelId,h.id);assert.equal(directory.imageForDeep(h.id).image,item.image);
+ const [next]=directory.ingest(result([{...item,image:null}]),h.city);assert.equal(next.image,item.image);assert.equal(directory.imageForDeep('lohkah-xiamen'),null);
+ const [branch]=directory.ingest(result([{...item,id:'andaz-branch',name:h.name+'分店',address:'另一条路9号',image:'https://example.com/other.jpg'}]),h.city);assert.notEqual(branch.openHotelId,h.id);assert.equal(directory.imageForDeep(h.id).image,item.image);db.close();
+});
 test('deep match requires exact name, city and street address',()=>{
  const h=profile.hotel;assert.equal(matchDeepHotel({name:h.name,address:'中国福建省'+h.address},'厦门',[h]),h.id);
  for(const change of [{name:'鼓浪屿七尚榕舍'},{address:''},{address:'槟城道999号'}])assert.equal(matchDeepHotel({name:h.name,address:h.address,...change},'厦门市',[h]),null);

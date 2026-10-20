@@ -45,16 +45,16 @@
 
 ![栖间首页](media/home-desktop.png)
 
-实际操作演示：[原速录屏 MP4](https://github.com/caiyize123-wq/qijian-stay-agent/releases/download/v0.1.0/real-walkthrough.mp4)。截图见 [media](media/)；演示按真实界面操作，不伪造接口结果。新酒店首次整理、百炼规划、单项修改和刷新恢复的记录见 [evidence](evidence/)。
+实际操作演示：[原速录屏 MP4](https://github.com/caiyize123-wq/qijian-stay-agent/releases/download/v0.1.1/trial-fixed-walkthrough.mp4)。截图见 [media](media/)；演示按真实界面操作，不伪造接口结果。新酒店首次整理、百炼规划、单项修改和刷新恢复的记录见 [evidence](evidence/)。
 
 官网资料核对范围为两家样例的14项体验，其中13项可对照官网，1项在店课程仍待取得当前排期与现行套餐说明；补入此前漏掉的七尚 OLI-FISH 和安达仕水疗，并修正七尚合并水疗入口的时段。核对不等于酒店工作人员或现场确认。
 
-自动化与真实外部API调用分开记录；模拟图片或模型故障明确标识。尚未收齐真实住客试用反馈，不填写满意度、节约时间或用户增长数字。
+自动化与真实外部API调用分开记录；模拟图片或模型故障明确标识。已收到1位真实体验者的失败反馈：试用酒店未传入、仍进入默认样例，以及图片不足。此次计为可用性失败；已据此修复并补自动回归，尚未经体验者再次验收，不填写正面满意度、节约时间或用户增长数字。
 
 ## 项目链接与复现方式
 
 - 项目仓库：https://github.com/caiyize123-wq/qijian-stay-agent
-- 下载包及演示：https://github.com/caiyize123-wq/qijian-stay-agent/releases/tag/v0.1.0
+- 下载包及演示：https://github.com/caiyize123-wq/qijian-stay-agent/releases/tag/v0.1.1
 - 当前不提供托管在线服务，评委可下载后使用自己的凭据复现。
 - 本地复现：见 [REPRODUCE.md](REPRODUCE.md)。解压后配置自己的百炼和飞猪凭据，运行 `npm run check`、`npm test`、`npm start`。
 - 真人试用：运行后打开 `/tryout.html`，完成三个任务并主动导出真实反馈。
@@ -71,3 +71,7 @@
 - 无图项目使用类别图形；未知开放、费用、权益、排期和路线不推测。
 
 > 奖品说明：每个团队最多发放1份奖品，仅登记1位主要提交人和奖品领取人。
+
+## 首次真人反馈后的入口修复
+
+未选酒店时先搜索，试用页携带城市与酒店名；搜索其他酒店与查当前体验分开。已匹配的酒店整体图继续保留，标明非项目实景。项目实景图仍不完整；第一次真人试用未通过，自动回归通过不代表真人已接受修复。

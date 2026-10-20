@@ -1,6 +1,6 @@
 {
-  "version": "0.1.0",
-  "createdAt": "2026-10-20T13:06:59.423Z",
+  "version": "0.1.1",
+  "createdAt": "2026-10-20T13:21:02.784Z",
   "files": [
     {
       "file": ".env.example",
@@ -14,23 +14,23 @@
     },
     {
       "file": "CONTENT_REVIEW.md",
-      "bytes": 2573,
-      "sha256": "9dd790d9d2281fb89f242d56d7d424d53913f9e7f160e16a91e721713d6d7f94"
+      "bytes": 2816,
+      "sha256": "da7428b64b6289740e6addaa0ab9a689861fa27a34fd64779047448a4093371c"
     },
     {
       "file": "README.md",
-      "bytes": 2604,
-      "sha256": "4cb8c80d50d4693d448749a14435053f3e34b2964323babc14554657cfd317c1"
+      "bytes": 2935,
+      "sha256": "dcf3ddd36cfbf9aa35a9ee5befa41828f7aabba807f7ef73801d0b47bed7524e"
     },
     {
       "file": "REPRODUCE.md",
-      "bytes": 3105,
-      "sha256": "759b9efda811115ae465a889e1b16c59efa4addca7c718304f7c66e152a219d6"
+      "bytes": 3344,
+      "sha256": "64680853f20e7bf1e7d28ba3cc066003900128ec1bffc2b904f831b819e1af00"
     },
     {
       "file": "SUBMISSION.md",
-      "bytes": 5341,
-      "sha256": "df4ee73a64c45621e667534cb4a1f0eadb91278caffeb79b9eb19a56ae5290fc"
+      "bytes": 5860,
+      "sha256": "9b2d6738ac4ed80c686ee9201c8db39d2a7f522b73aa7c7babb919df8769e0d2"
     },
     {
       "file": "THIRD_PARTY_NOTICES.md",
@@ -44,8 +44,8 @@
     },
     {
       "file": "dist/app.js",
-      "bytes": 46631,
-      "sha256": "ee8e0917325045b2df3dcd9016a9c0ca66110839c27e57b35ba27cc1f76ba166"
+      "bytes": 48633,
+      "sha256": "d002da8dd6dcc8ab24d456fb4dad9668c1415f66103cf1f9e081d6ab0faec4ad"
     },
     {
       "file": "dist/assets/architecture.jpg",
@@ -144,8 +144,8 @@
     },
     {
       "file": "dist/hotel-directory-ui.js",
-      "bytes": 10370,
-      "sha256": "b588a212da5b4e5f4d98d5d42c9ca054d225fb9e57d84e6718af14af9435102a"
+      "bytes": 11042,
+      "sha256": "a8e3cd9639dc0264fc88f43867dcbabded4007547a8cf41acaa94aee12b34d68"
     },
     {
       "file": "dist/index.html",
@@ -154,8 +154,8 @@
     },
     {
       "file": "dist/journey-ui.js",
-      "bytes": 18178,
-      "sha256": "3cfe008b46b261eaf2e6ad3297a71ddfaadc8ff12db78cd3c140d5429c1bddae"
+      "bytes": 18503,
+      "sha256": "99ef80100cd577b5e5cadc0da93e2f927d58230d9527c6231ef46fa2e608182c"
     },
     {
       "file": "dist/manage.html",
@@ -174,8 +174,8 @@
     },
     {
       "file": "dist/refined.css",
-      "bytes": 22190,
-      "sha256": "ab110043913c3f9db73a23a846f970159421a00174a7d020456304c8501320ac"
+      "bytes": 24281,
+      "sha256": "ec467a5bb1ce3ec9eddeb5aaf29f3ca32c7be42d77c3337df3cbb0d4e11896cf"
     },
     {
       "file": "dist/spatial.js",
@@ -194,13 +194,13 @@
     },
     {
       "file": "dist/tryout.html",
-      "bytes": 3444,
-      "sha256": "5069a09c8ba0ab13fe2f832185a64b4489f0394d37e3bf3b56cba2873357ea98"
+      "bytes": 3619,
+      "sha256": "a7afdfca6a752a8c12d4fbdc8f2d386da316d3bcb6e7b8bd482748478f916faf"
     },
     {
       "file": "dist/tryout.js",
-      "bytes": 1839,
-      "sha256": "94bd7051ddaa6d28bbf4d418b116011d84a28fffe1e5a8370512a4e4d1bc0a5a"
+      "bytes": 2097,
+      "sha256": "47c6cd99bc4a3e1ab4ebdeb9acfc90ea36254cb067493d0ac298be8306142949"
     },
     {
       "file": "dist/visual.css",
@@ -218,6 +218,11 @@
       "sha256": "339a3c8a47f4fbed8533ede6e2c87eaef61dde8887266af5b6b43a06ee4821fe"
     },
     {
+      "file": "evidence/first-human-trial-summary.json",
+      "bytes": 537,
+      "sha256": "e31f3f7b072b07eca1b8a79badb547a4e297f9cfad7d3d551002705f10c22a2c"
+    },
+    {
       "file": "evidence/home-unified-browser-report.json",
       "bytes": 596,
       "sha256": "12cb1d258f231cbfe4d8507a2bb57f1cce3a2de46f567fc8e3c6243b06a86b5b"
@@ -226,6 +231,11 @@
       "file": "evidence/hotel-content-review.json",
       "bytes": 10606,
       "sha256": "0ed40f631d4e2a10dbce46a89b27e917242303107dfe08e1e4e13c08b3102605"
+    },
+    {
+      "file": "evidence/human-trial-regression-report.json",
+      "bytes": 674,
+      "sha256": "983ee4612cbdd408834984d362b9cfe8b404cfa0628e9baba7dcb25d6f557e60"
     },
     {
       "file": "evidence/impeccable-browser-report.json",
@@ -254,8 +264,8 @@
     },
     {
       "file": "lib/andaz.mjs",
-      "bytes": 5447,
-      "sha256": "8724a015b8723c25d52535f55398f2b0b1c41a39e6cdbf64089973d4dc0e7338"
+      "bytes": 5830,
+      "sha256": "05886b9ad4dac917df1aa0ce99cd7e6f12bbb372fd74c93186ffe00f8314a23c"
     },
     {
       "file": "lib/catalog.mjs",
@@ -274,8 +284,8 @@
     },
     {
       "file": "lib/hotel-directory.mjs",
-      "bytes": 4594,
-      "sha256": "3bbca1828ba6491635cb4e73bd0659f94f06d56ec9603600097e767bc189333b"
+      "bytes": 4966,
+      "sha256": "5c5b3c45eb59d7891ab7dfde142ebd81a56dafb9411d95cdba42b92f216322b6"
     },
     {
       "file": "lib/hotel-experiences.mjs",
@@ -308,6 +318,16 @@
       "sha256": "4a051f7983483066cd55e5a3b06705ea684c2305e5243afd25694327defd7bd4"
     },
     {
+      "file": "media/andaz-desktop.png",
+      "bytes": 623165,
+      "sha256": "18fadbd8076e64f308c3e6dea9ec81e8c21d75afce6f0551419fe64f3ec312d1"
+    },
+    {
+      "file": "media/andaz-mobile.png",
+      "bytes": 27764,
+      "sha256": "278995831959670b80c94702334dc7dc63aa1333d2218d7fddfd7c97d04209a9"
+    },
+    {
       "file": "media/demo-chapters.md",
       "bytes": 525,
       "sha256": "eb70493ed97fc1307a219c42389aa6fc49d4465c897a5047da2a630542220a70"
@@ -319,13 +339,18 @@
     },
     {
       "file": "media/home-desktop.png",
-      "bytes": 638965,
-      "sha256": "e5e471e2d34b233a65d17aea4f1549ca4f8a93f7919c89101587202c70ba3256"
+      "bytes": 670786,
+      "sha256": "17eaf0cd0111c9fe80d63c89aacaee5190123f8e9c0e98e3f9bbf4b52f5df565"
     },
     {
       "file": "media/home-mobile.png",
       "bytes": 165055,
       "sha256": "d6e7656d9102641dcbcfc451708e4eb85d909b0c2027096f9d5ff6808449ab1b"
+    },
+    {
+      "file": "media/hotel-entry.png",
+      "bytes": 36455,
+      "sha256": "4e46d9817e5e80cd24660314fe69ccd938fd53ffeec6f702a8ba4a88c9c85490"
     },
     {
       "file": "media/plan-desktop.png",
@@ -346,6 +371,16 @@
       "file": "media/real-walkthrough.webm",
       "bytes": 2777881,
       "sha256": "74bbc7991c555f1426fd2792ee1d2ba0377b8d8307fc5fa230f88fe7421238bf"
+    },
+    {
+      "file": "media/trial-fixed-walkthrough.mp4",
+      "bytes": 563011,
+      "sha256": "46eede611363478bdb6581287cb4bb6d6489baedbfdd8c434ac5a8f3704ae69f"
+    },
+    {
+      "file": "media/trial-fixed-walkthrough.webm",
+      "bytes": 1077079,
+      "sha256": "defffcce89a301ab9cb3c546ef06a81616db431ec492d5ffe153d2e72cd2b380"
     },
     {
       "file": "media/tryout-mobile.png",
@@ -369,13 +404,13 @@
     },
     {
       "file": "server.mjs",
-      "bytes": 18267,
-      "sha256": "83f7b403dc09a404cd2d6a8cd32dd7b50ceb33e3b9428b9359911b33ede17b7b"
+      "bytes": 18436,
+      "sha256": "7b956b30139084c4bae2f3e8b7d5f620c8fbe2ad50180b633cf95c4d1e4ef359"
     },
     {
       "file": "tests/directory-content.test.mjs",
-      "bytes": 7226,
-      "sha256": "d9728dec798eb7577ec31577f29ccc88f3c8c37c92fe5493910e7857645fbfb0"
+      "bytes": 8176,
+      "sha256": "1bb3d91f5bff45a69bd2aeacf8bc5c2f54d5c998238dcc60782ea65fc162b0a8"
     },
     {
       "file": "tests/discovery-outing.test.mjs",
