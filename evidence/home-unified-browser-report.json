@@ -1,0 +1,16 @@
+{
+  "checks": [
+    "三家酒店、六种宽度无横向溢出，手机主入口无遮挡且核心触控目标不小于44px",
+    "首页移除圆球与装饰口号；无实景图时明确缺图，不借用其他酒店图片",
+    "首页章节选择、探索详情、偏好、搜索和体验入口可操作",
+    "减弱动效生效；模拟图片加载失败后保留浏览操作并明确反馈"
+  ],
+  "errors": [],
+  "testedHotels": [
+    "flyai-ddf843fd9479ea55f3dcc662",
+    "lohkah-xiamen",
+    "andaz-xiamen"
+  ],
+  "externalModel": "real Bailian recommendation rendered",
+  "ok": true
+}

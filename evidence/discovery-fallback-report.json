@@ -1,0 +1,9 @@
+{
+  "checks": [
+    "Simulated model failure retains an eligible rule recommendation without claiming AI success",
+    "No fitting experience yields a clear browsing fallback rather than a closed recommendation",
+    "Browsing remains operable without a model connection"
+  ],
+  "errors": [],
+  "ok": true
+}

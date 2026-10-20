@@ -1,0 +1,17 @@
+{
+  "checks": [
+    "真实酒店体验完整显示；缺图项目使用类别图形，移除装饰口号",
+    "收藏经刷新恢复；分类、键盘打开详情与原文依据可用",
+    "真实百炼生成、导出、保留时段与刷新恢复通过；没有虚构导航",
+    "360 / 390 / 430 / 768 / 1440px 体验页和安排页无横向溢出；主要按钮触控高度达标",
+    "七尚和安达仕继续使用各自资料，深度样例手机布局可用"
+  ],
+  "errors": [],
+  "engineDetector": "not run; initial binary download unavailable",
+  "plan": {
+    "hotelId": "flyai-ddf843fd9479ea55f3dcc662",
+    "engine": "bailian+rules",
+    "items": 2
+  },
+  "ok": true
+}

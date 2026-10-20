@@ -1,0 +1,62 @@
+{
+  "startedAt": "2026-10-20T13:01:50.690Z",
+  "environment": "same host, fresh extracted directory and empty database; not an independent physical device",
+  "checks": [
+    "Extracted package contains no secrets or database; its rule suite and configuration check pass",
+    "Fresh search, source retrieval, evidence extraction and proactive real-model recommendation work outside the source directory",
+    "Real model plan, lock, removal, reload and JSON export preserve this hotel stay",
+    "Mobile experience and local human-feedback task page are usable; no fabricated human responses recorded",
+    "Reviewed content ships in the release, and another hotel has independent empty stay state"
+  ],
+  "errors": [],
+  "chapters": [
+    {
+      "seconds": 2.8,
+      "label": "打开空数据库的发行版"
+    },
+    {
+      "seconds": 4.3,
+      "label": "真实飞猪搜索新酒店"
+    },
+    {
+      "seconds": 7.9,
+      "label": "空库自动取得飞猪原文并由百炼整理"
+    },
+    {
+      "seconds": 27.5,
+      "label": "浏览体验、查看来源并收藏"
+    },
+    {
+      "seconds": 30.3,
+      "label": "按亲子偏好生成120分钟安排"
+    },
+    {
+      "seconds": 38.9,
+      "label": "保留一个时段，移除另一项"
+    },
+    {
+      "seconds": 41.4,
+      "label": "刷新恢复，导出安排"
+    },
+    {
+      "seconds": 43,
+      "label": "手机查看和真人试用入口"
+    },
+    {
+      "seconds": 46.6,
+      "label": "完整流程结束"
+    }
+  ],
+  "timingMs": {
+    "search": 2365,
+    "experiences": 15991,
+    "plan": 2813
+  },
+  "hotelId": "flyai-ddf843fd9479ea55f3dcc662",
+  "projectCount": 18,
+  "model": "qwen-plus",
+  "contentSource": "real FlyAI + Bailian; no preloaded hotel cache",
+  "planItems": 2,
+  "ok": true,
+  "finishedAt": "2026-10-20T13:02:38.014Z"
+}

@@ -1,0 +1,411 @@
+{
+  "version": "0.1.0",
+  "createdAt": "2026-10-20T13:05:13.324Z",
+  "files": [
+    {
+      "file": ".env.example",
+      "bytes": 376,
+      "sha256": "226427c4d25d4808c55d98766504884e9ae35a4d0913714f0b50d8b41965ed30"
+    },
+    {
+      "file": ".github/workflows/verify.yml",
+      "bytes": 453,
+      "sha256": "5bb76d3b66e19a3a51d5e7dc0410abb5676b7c55c5ca652c942fab0e4ce6e055"
+    },
+    {
+      "file": ".gitignore",
+      "bytes": 50,
+      "sha256": "be73fd2c4c7e691943b4eb370f791043808cd6dfe43e09390f5ae36b8a674351"
+    },
+    {
+      "file": "CONTENT_REVIEW.md",
+      "bytes": 2573,
+      "sha256": "9dd790d9d2281fb89f242d56d7d424d53913f9e7f160e16a91e721713d6d7f94"
+    },
+    {
+      "file": "README.md",
+      "bytes": 2295,
+      "sha256": "41afbb55e3786452b74bdd7dcc452d9f92dbfa389152de16390d6144c88706f2"
+    },
+    {
+      "file": "REPRODUCE.md",
+      "bytes": 3105,
+      "sha256": "759b9efda811115ae465a889e1b16c59efa4addca7c718304f7c66e152a219d6"
+    },
+    {
+      "file": "SUBMISSION.md",
+      "bytes": 5245,
+      "sha256": "1edd70dbcf89d67f620e190a18717dcfb461e2d3ba0acc0eaad59db6a979c337"
+    },
+    {
+      "file": "THIRD_PARTY_NOTICES.md",
+      "bytes": 1222,
+      "sha256": "187ca697334e771be1b1c90c9bd2d9160db326f629f20506675ef0a6b2cd9cd0"
+    },
+    {
+      "file": "dist/app.js",
+      "bytes": 46631,
+      "sha256": "ee8e0917325045b2df3dcd9016a9c0ca66110839c27e57b35ba27cc1f76ba166"
+    },
+    {
+      "file": "dist/assets/architecture.jpg",
+      "bytes": 91010,
+      "sha256": "7a332515178beb7330a10c957f9fe1fcfe478c523620e5a2e21c12e76daadbba"
+    },
+    {
+      "file": "dist/assets/arrival.jpg",
+      "bytes": 157890,
+      "sha256": "ec44496561c1bffc52c7cb4b47c7c61af222c17f13e8e0eb57d92ace1703a9c1"
+    },
+    {
+      "file": "dist/assets/bar.jpg",
+      "bytes": 47286,
+      "sha256": "531be5e7a41916e6c59cdcce50cc175888fe8f3888b30e2b71084b9705e8ad7c"
+    },
+    {
+      "file": "dist/assets/courtyard.jpg",
+      "bytes": 130113,
+      "sha256": "f984858551d9672f39da1297a16c3c8375e393a37a665217237fe08422641b4a"
+    },
+    {
+      "file": "dist/assets/dining.jpg",
+      "bytes": 333115,
+      "sha256": "e3282cd8b5864abf8777087f6c7764dd9f25fe315d286294839182734605d36b"
+    },
+    {
+      "file": "dist/assets/garden.jpg",
+      "bytes": 200159,
+      "sha256": "a495086c2ff033f9b94bad192ec211a72f7e9f16c06a9c0b707842986c54b75f"
+    },
+    {
+      "file": "dist/assets/lounge.jpg",
+      "bytes": 157680,
+      "sha256": "b41fd005f3fb361ebea3a6b963baac9597ca8913e9d80452ae3cd47d40ef366c"
+    },
+    {
+      "file": "dist/assets/mark.svg",
+      "bytes": 289,
+      "sha256": "c3c669ece69604b4e5f240e5dcfc1a79be383083300ee78e00de7a84a6098054"
+    },
+    {
+      "file": "dist/assets/pool.jpg",
+      "bytes": 143985,
+      "sha256": "98facf1f44dfb2228850062600213c1356f7ccb1d120b6e2eeb5f515ea49b51d"
+    },
+    {
+      "file": "dist/assets/pool2.jpg",
+      "bytes": 51889,
+      "sha256": "b505091658be901d7a6d3a7abec10cdf85bb6f3460903c149c3647c5be2ee2b9"
+    },
+    {
+      "file": "dist/assets/pool3.jpg",
+      "bytes": 125757,
+      "sha256": "d765346570c7f2f56593614e279bcea236e62a831169dca6ba152ec954080eef"
+    },
+    {
+      "file": "dist/assets/room.jpg",
+      "bytes": 512345,
+      "sha256": "38a5bacbb9bb34fe91ed092104a97e17bcdb911635e1556273436429bdb8048a"
+    },
+    {
+      "file": "dist/assets/sources.json",
+      "bytes": 1535,
+      "sha256": "c0a089b8fd82300d9551907b6fcaeec886ab185673511dc43c3e41fd72975eef"
+    },
+    {
+      "file": "dist/assets/spa.jpg",
+      "bytes": 340184,
+      "sha256": "278445c7c2afd6020c7e8b17e1458890b305830bcd7150c9aa96583660d9184c"
+    },
+    {
+      "file": "dist/assets/spa2.jpg",
+      "bytes": 212489,
+      "sha256": "de4f1694dfdbc1b94a4fcaa1194e955da8b99bf133f2781f2db59d06cb68a809"
+    },
+    {
+      "file": "dist/assets/spa3.jpg",
+      "bytes": 268441,
+      "sha256": "c62a4db34e855abd8e26181100f4a6f769c0760c40d78a2675374599a8f7a1ad"
+    },
+    {
+      "file": "dist/assets/space.svg",
+      "bytes": 1304,
+      "sha256": "619d5477f77fe7ccc7c9f6be159ab62fba29fd3695f4e689938aedebd4733500"
+    },
+    {
+      "file": "dist/assets/tea.jpg",
+      "bytes": 104588,
+      "sha256": "8382a111435b345e46ca7cab486dbe7c457d6e59f409bddf1a315cb1725e4e7f"
+    },
+    {
+      "file": "dist/directory.css",
+      "bytes": 9866,
+      "sha256": "c9d5acb3b2ebc95e627ae1087e29e92e71a17cbae88f90475e7e8d4a0dc521cf"
+    },
+    {
+      "file": "dist/hotel-directory-ui.js",
+      "bytes": 10370,
+      "sha256": "b588a212da5b4e5f4d98d5d42c9ca054d225fb9e57d84e6718af14af9435102a"
+    },
+    {
+      "file": "dist/index.html",
+      "bytes": 1008,
+      "sha256": "5c1064fbf17a8b65470ecda94c2609c5d916ebbd280df2ff5f457b3530835f00"
+    },
+    {
+      "file": "dist/journey-ui.js",
+      "bytes": 18178,
+      "sha256": "3cfe008b46b261eaf2e6ad3297a71ddfaadc8ff12db78cd3c140d5429c1bddae"
+    },
+    {
+      "file": "dist/manage.html",
+      "bytes": 631,
+      "sha256": "dd2b1fcd59ba415258ede0e105fc622ab21991d6c840af97be0cf38d64d73f88"
+    },
+    {
+      "file": "dist/manage.js",
+      "bytes": 8702,
+      "sha256": "434a6d25d44048f05d13fda19a27a7d825b45399c98a41d8eebac4822164b9e1"
+    },
+    {
+      "file": "dist/preferences-ui.js",
+      "bytes": 5646,
+      "sha256": "0d5af34ccfd3b58db0f52e962871c886939f5ef6477bad8b29cd13559a37923e"
+    },
+    {
+      "file": "dist/refined.css",
+      "bytes": 22190,
+      "sha256": "ab110043913c3f9db73a23a846f970159421a00174a7d020456304c8501320ac"
+    },
+    {
+      "file": "dist/spatial.js",
+      "bytes": 1262,
+      "sha256": "b0f54d80ff572af5a64e24e94472de0b134ee730fa60536978d43c2cf43c4f1c"
+    },
+    {
+      "file": "dist/style.css",
+      "bytes": 28739,
+      "sha256": "a7dc48f3cd194eefa3537285a55356d63aaed93646175b63919147d7327c0797"
+    },
+    {
+      "file": "dist/tryout.css",
+      "bytes": 784,
+      "sha256": "560d278d81c1edbe6cfe2c962a8bd07e260ffd111f3ff0653b5ea307a11bf62b"
+    },
+    {
+      "file": "dist/tryout.html",
+      "bytes": 3444,
+      "sha256": "5069a09c8ba0ab13fe2f832185a64b4489f0394d37e3bf3b56cba2873357ea98"
+    },
+    {
+      "file": "dist/tryout.js",
+      "bytes": 1839,
+      "sha256": "94bd7051ddaa6d28bbf4d418b116011d84a28fffe1e5a8370512a4e4d1bc0a5a"
+    },
+    {
+      "file": "dist/visual.css",
+      "bytes": 19289,
+      "sha256": "3300ea096ade04e1adfe5b47724f5057d100c2f736c122ced921bad11e6c4df5"
+    },
+    {
+      "file": "evidence/clean-room-report.json",
+      "bytes": 1835,
+      "sha256": "92c04d77b36acb2212fa5fdd1c205725f1eacc99f88da131d9b2ecc46cf4c678"
+    },
+    {
+      "file": "evidence/discovery-fallback-report.json",
+      "bytes": 307,
+      "sha256": "339a3c8a47f4fbed8533ede6e2c87eaef61dde8887266af5b6b43a06ee4821fe"
+    },
+    {
+      "file": "evidence/home-unified-browser-report.json",
+      "bytes": 596,
+      "sha256": "12cb1d258f231cbfe4d8507a2bb57f1cce3a2de46f567fc8e3c6243b06a86b5b"
+    },
+    {
+      "file": "evidence/hotel-content-review.json",
+      "bytes": 10606,
+      "sha256": "0ed40f631d4e2a10dbce46a89b27e917242303107dfe08e1e4e13c08b3102605"
+    },
+    {
+      "file": "evidence/impeccable-browser-report.json",
+      "bytes": 685,
+      "sha256": "f10fbe1ba7cffbe69c44f96f0e5a7ccdb5bf52abb71d4abd3a0fd857817df9b5"
+    },
+    {
+      "file": "evidence/product-browser-report.json",
+      "bytes": 790,
+      "sha256": "3daaf159b147067ce95f62debaeb81ae30e2417eeaba848738b5e8b9ae7953ef"
+    },
+    {
+      "file": "evidence/release-unit-tests.txt",
+      "bytes": 6270,
+      "sha256": "631f66c4cfaa1778570c06956bfe731f0922ffa9dd4242174f68746ccb3f490e"
+    },
+    {
+      "file": "lib/agent.mjs",
+      "bytes": 11603,
+      "sha256": "fa57604e71670acffe8cf6c8b4b0b3ab14a3a5984034300e121609be58ed52c2"
+    },
+    {
+      "file": "lib/andaz.mjs",
+      "bytes": 5447,
+      "sha256": "8724a015b8723c25d52535f55398f2b0b1c41a39e6cdbf64089973d4dc0e7338"
+    },
+    {
+      "file": "lib/catalog.mjs",
+      "bytes": 8567,
+      "sha256": "bd3be9c569b621ce310d8ebaae85ed734d8f803e2b2511648673866b7d2c086b"
+    },
+    {
+      "file": "lib/discovery.mjs",
+      "bytes": 2696,
+      "sha256": "b80ee01a0fbacbf503d574dcf7b88a9d4cf2369a4b23a91d7c911636f5cd13ab"
+    },
+    {
+      "file": "lib/hotel-content.mjs",
+      "bytes": 7356,
+      "sha256": "4af2dd5969576254b6c84324d943fa1072423b596d586fd02e80c97501b4bc9c"
+    },
+    {
+      "file": "lib/hotel-directory.mjs",
+      "bytes": 4594,
+      "sha256": "3bbca1828ba6491635cb4e73bd0659f94f06d56ec9603600097e767bc189333b"
+    },
+    {
+      "file": "lib/hotel-experiences.mjs",
+      "bytes": 13903,
+      "sha256": "adae0b55b3808c3bb998ac7671de86a1feea795bfa530739224fa0e398eb300d"
+    },
+    {
+      "file": "lib/hotels.mjs",
+      "bytes": 1927,
+      "sha256": "e8e1a777faacba936ca800742ee3c5736f33644684782da2eb58baaa3da750f9"
+    },
+    {
+      "file": "lib/journey.mjs",
+      "bytes": 6497,
+      "sha256": "4cab8343fa04dc6be91a181202ddb2ece15d9e08a0ba0665d990602e970174c3"
+    },
+    {
+      "file": "lib/outing.mjs",
+      "bytes": 2028,
+      "sha256": "ec8b4bece47d36ab88eea1f7a488c062ab482b5dc5f5a2cff37e9c41b786d744"
+    },
+    {
+      "file": "lib/planner.mjs",
+      "bytes": 13095,
+      "sha256": "4fab09d886aad7ef5e78f5baaaffcb9056a18f94b1f6152fd4aeaba1d75863c7"
+    },
+    {
+      "file": "lib/providers.mjs",
+      "bytes": 9799,
+      "sha256": "4a051f7983483066cd55e5a3b06705ea684c2305e5243afd25694327defd7bd4"
+    },
+    {
+      "file": "media/demo-chapters.md",
+      "bytes": 525,
+      "sha256": "eb70493ed97fc1307a219c42389aa6fc49d4465c897a5047da2a630542220a70"
+    },
+    {
+      "file": "media/experiences-desktop.png",
+      "bytes": 247464,
+      "sha256": "627cf38a9295bb4f2b9d4861122d2de5ee97f39d77e58fac785b5a61e3277e49"
+    },
+    {
+      "file": "media/home-desktop.png",
+      "bytes": 638965,
+      "sha256": "e5e471e2d34b233a65d17aea4f1549ca4f8a93f7919c89101587202c70ba3256"
+    },
+    {
+      "file": "media/home-mobile.png",
+      "bytes": 165055,
+      "sha256": "d6e7656d9102641dcbcfc451708e4eb85d909b0c2027096f9d5ff6808449ab1b"
+    },
+    {
+      "file": "media/plan-desktop.png",
+      "bytes": 102434,
+      "sha256": "bca137d2a428d1a5ccdf84bd9afd6470249ffda6c3e31aaf495fe0adc2f9ae0f"
+    },
+    {
+      "file": "media/plan-mobile.png",
+      "bytes": 58036,
+      "sha256": "aee81ae2ae9b06e536ddffdceccaf50269d0e4ebd364b10ae4a95b1c159537a3"
+    },
+    {
+      "file": "media/raw/page@00a36a614f7101d7565282376b873081.webm",
+      "bytes": 2777881,
+      "sha256": "74bbc7991c555f1426fd2792ee1d2ba0377b8d8307fc5fa230f88fe7421238bf"
+    },
+    {
+      "file": "media/real-walkthrough.mp4",
+      "bytes": 1309669,
+      "sha256": "c19db9f8985f061201b741f493a1f7129fa1720ae8495298fd84a90e166ea8af"
+    },
+    {
+      "file": "media/real-walkthrough.webm",
+      "bytes": 2777881,
+      "sha256": "74bbc7991c555f1426fd2792ee1d2ba0377b8d8307fc5fa230f88fe7421238bf"
+    },
+    {
+      "file": "media/tryout-mobile.png",
+      "bytes": 54222,
+      "sha256": "3dfd57db0d70ac17ecdcd4cfb1b9536e2a724e4c1d145a85b46e507b33ea7f0b"
+    },
+    {
+      "file": "package.json",
+      "bytes": 250,
+      "sha256": "8b5ee4066d5dae15b4daec2db8e07e6d30946452e92a02b692bdb423bcc192c6"
+    },
+    {
+      "file": "scripts/preflight.mjs",
+      "bytes": 891,
+      "sha256": "14b88b173a21521197d2db34e19539c11a107d952844537f36868ba0ee0f78ff"
+    },
+    {
+      "file": "scripts/smoke-release.mjs",
+      "bytes": 2414,
+      "sha256": "2c1fd1ff5140d27e2be0d1935e5648ff066d384c306596d90c1c5efd0d64e7ce"
+    },
+    {
+      "file": "server.mjs",
+      "bytes": 18267,
+      "sha256": "83f7b403dc09a404cd2d6a8cd32dd7b50ceb33e3b9428b9359911b33ede17b7b"
+    },
+    {
+      "file": "tests/directory-content.test.mjs",
+      "bytes": 7226,
+      "sha256": "d9728dec798eb7577ec31577f29ccc88f3c8c37c92fe5493910e7857645fbfb0"
+    },
+    {
+      "file": "tests/discovery-outing.test.mjs",
+      "bytes": 5127,
+      "sha256": "ed45a3a43fa33bb8e947f89126b12301c3189aaa634c853dc58d994db2ccfff7"
+    },
+    {
+      "file": "tests/hotel-experiences.test.mjs",
+      "bytes": 17899,
+      "sha256": "c250c5d17803d8133b61eae27a819a4100843006c79c74eabc324be21ac82a6f"
+    },
+    {
+      "file": "tests/hotels.test.mjs",
+      "bytes": 2834,
+      "sha256": "6b9b700661d8f00cfad403d19ef15dd8a4f6576eaf8ea90e4055bef0dc76b30b"
+    },
+    {
+      "file": "tests/journey.test.mjs",
+      "bytes": 4905,
+      "sha256": "6ecf8eaca3d48d464f070d98c9b584132c28043e939ed60ea75658532ce5c062"
+    },
+    {
+      "file": "tests/official-review.test.mjs",
+      "bytes": 1712,
+      "sha256": "770900c35e96302c1a0b1c03692ac2b42d07aa6e6a1c4d1f8f71e6baa17fa1a2"
+    },
+    {
+      "file": "tests/planner.test.mjs",
+      "bytes": 3451,
+      "sha256": "05f3903d99b7e3de1234b83747a0c718aaba28245fe0b84595456d54f6b47434"
+    }
+  ]
+}

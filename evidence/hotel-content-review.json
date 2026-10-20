@@ -1,0 +1,346 @@
+{
+  "reviewedAt": "2026-10-20T12:59:07.145Z",
+  "reviewer": "本轮工具辅助官网核对；不是酒店工作人员或住客现场确认",
+  "rows": [
+    {
+      "hotelId": "lohkah-xiamen",
+      "hotel": "厦门七尚酒店",
+      "id": "garden",
+      "name": "建筑与庭院",
+      "source": "https://lohkahhotels.com/about-1.html",
+      "reviewedOn": "2026-10-20",
+      "reviewMethod": "official-website-cross-check",
+      "location": "庭院与公共空间 · 具体点位待核对",
+      "hours": null,
+      "fee": "通行与使用规则待确认",
+      "routeAvailable": "schematic-only",
+      "pending": [
+        "当天实际开放",
+        "费用与入住权益",
+        "真实入口及路线",
+        "剩余预约名额"
+      ],
+      "changes": "关键字段与官网交叉核对，未知项保留"
+    },
+    {
+      "hotelId": "lohkah-xiamen",
+      "hotel": "厦门七尚酒店",
+      "id": "tea",
+      "name": "Long Bar · 茶与小坐",
+      "source": "https://lohkahhotels.com/dinning-1.html",
+      "reviewedOn": "2026-10-20",
+      "reviewMethod": "official-website-cross-check",
+      "location": "大堂区域 · 入口待核对",
+      "hours": [
+        [
+          600,
+          1410
+        ]
+      ],
+      "fee": "另付费；官网下午茶展示价 ¥477/套，适用条件与当日价格待确认",
+      "routeAvailable": "schematic-only",
+      "pending": [
+        "当天实际开放",
+        "费用与入住权益",
+        "真实入口及路线",
+        "剩余预约名额"
+      ],
+      "changes": "关键字段与官网交叉核对，未知项保留"
+    },
+    {
+      "hotelId": "lohkah-xiamen",
+      "hotel": "厦门七尚酒店",
+      "id": "xia",
+      "name": "夏餐厅",
+      "source": "https://lohkahhotels.com/dinning-1.html",
+      "reviewedOn": "2026-10-20",
+      "reviewMethod": "official-website-cross-check",
+      "location": "一层 · 具体入口待核对",
+      "hours": [
+        [
+          690,
+          840
+        ],
+        [
+          1050,
+          1290
+        ]
+      ],
+      "fee": "按菜单付费；具体菜品与套餐适用条件待确认",
+      "routeAvailable": "schematic-only",
+      "pending": [
+        "当天实际开放",
+        "费用与入住权益",
+        "真实入口及路线",
+        "剩余预约名额"
+      ],
+      "changes": "关键字段与官网交叉核对，未知项保留"
+    },
+    {
+      "hotelId": "lohkah-xiamen",
+      "hotel": "厦门七尚酒店",
+      "id": "spa",
+      "name": "水疗与泡池",
+      "source": "https://lohkahhotels.com/Wellness-1.html",
+      "reviewedOn": "2026-10-20",
+      "reviewMethod": "official-website-cross-check",
+      "location": "B1 · 具体入口待核对",
+      "hours": [
+        [
+          600,
+          1290
+        ]
+      ],
+      "fee": "项目单独确认；不能默认房费包含护理或泡池",
+      "routeAvailable": "schematic-only",
+      "pending": [
+        "当天实际开放",
+        "费用与入住权益",
+        "真实入口及路线",
+        "剩余预约名额"
+      ],
+      "changes": "合并入口只使用护理与动态泡池的重叠时段"
+    },
+    {
+      "hotelId": "lohkah-xiamen",
+      "hotel": "厦门七尚酒店",
+      "id": "pool",
+      "name": "室外泳池",
+      "source": "https://lohkahhotels.com/Wellness-1.html",
+      "reviewedOn": "2026-10-20",
+      "reviewMethod": "official-website-cross-check",
+      "location": "一层 · 具体入口待核对",
+      "hours": "seasonal-pool",
+      "fee": "入住使用权益与参与条件待确认",
+      "routeAvailable": "schematic-only",
+      "pending": [
+        "当天实际开放",
+        "费用与入住权益",
+        "真实入口及路线",
+        "剩余预约名额"
+      ],
+      "changes": "关键字段与官网交叉核对，未知项保留"
+    },
+    {
+      "hotelId": "lohkah-xiamen",
+      "hotel": "厦门七尚酒店",
+      "id": "gym",
+      "name": "健身房",
+      "source": "https://lohkahhotels.com/Wellness-1.html",
+      "reviewedOn": "2026-10-20",
+      "reviewMethod": "official-website-cross-check",
+      "location": "B1 水疗区域",
+      "hours": [
+        [
+          0,
+          1440
+        ]
+      ],
+      "fee": "入住使用权益待确认",
+      "routeAvailable": "schematic-only",
+      "pending": [
+        "当天实际开放",
+        "费用与入住权益",
+        "真实入口及路线",
+        "剩余预约名额"
+      ],
+      "changes": "关键字段与官网交叉核对，未知项保留"
+    },
+    {
+      "hotelId": "lohkah-xiamen",
+      "hotel": "厦门七尚酒店",
+      "id": "oli-fish",
+      "name": "OLI-FISH 餐厅",
+      "source": "https://lohkahhotels.com/dinning-1.html",
+      "reviewedOn": "2026-10-20",
+      "reviewMethod": "official-website-cross-check",
+      "location": "酒店内，具体楼层与入口未取得",
+      "hours": [
+        [
+          420,
+          660
+        ],
+        [
+          720,
+          870
+        ],
+        [
+          1050,
+          1290
+        ]
+      ],
+      "fee": "按菜单消费，实际费用及套餐权益需确认",
+      "routeAvailable": false,
+      "pending": [
+        "当天实际开放",
+        "费用与入住权益",
+        "真实入口及路线",
+        "剩余预约名额"
+      ],
+      "changes": "补充此前遗漏的官方餐厅"
+    },
+    {
+      "hotelId": "lohkah-xiamen",
+      "hotel": "厦门七尚酒店",
+      "id": "activities",
+      "name": "在店体验课程",
+      "source": "https://www.lohkah.com/TanSuoDetail-0-13-0.html",
+      "reviewedOn": null,
+      "reviewMethod": "previous-package-claim-not-currently-verified",
+      "location": "依当日活动安排",
+      "hours": null,
+      "fee": "以具体活动和已确认套餐为准",
+      "routeAvailable": "schematic-only",
+      "pending": [
+        "当天排期",
+        "现行套餐是否仍包含",
+        "地点",
+        "费用与名额"
+      ],
+      "changes": "关键字段与官网交叉核对，未知项保留"
+    },
+    {
+      "hotelId": "andaz-xiamen",
+      "hotel": "厦门安达仕酒店",
+      "id": "garden",
+      "name": "南洋空间",
+      "source": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen",
+      "reviewedOn": "2026-10-20",
+      "reviewMethod": "official-website-cross-check",
+      "location": "酒店公共区域",
+      "hours": null,
+      "fee": "费用与入住权益请向酒店咨询",
+      "routeAvailable": "schematic-only",
+      "pending": [
+        "当天实际开放",
+        "费用与入住权益",
+        "真实入口及路线",
+        "剩余预约名额"
+      ],
+      "changes": "关键字段与官网交叉核对，未知项保留"
+    },
+    {
+      "hotelId": "andaz-xiamen",
+      "hotel": "厦门安达仕酒店",
+      "id": "tea",
+      "name": "安达仕酒廊",
+      "source": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen/dining",
+      "reviewedOn": "2026-10-20",
+      "reviewMethod": "official-website-cross-check",
+      "location": "安达仕酒廊",
+      "hours": [
+        [
+          600,
+          1320
+        ]
+      ],
+      "fee": "费用与入住权益请向酒店咨询",
+      "routeAvailable": "schematic-only",
+      "pending": [
+        "当天实际开放",
+        "费用与入住权益",
+        "真实入口及路线",
+        "剩余预约名额"
+      ],
+      "changes": "关键字段与官网交叉核对，未知项保留"
+    },
+    {
+      "hotelId": "andaz-xiamen",
+      "hotel": "厦门安达仕酒店",
+      "id": "xia",
+      "name": "壹佰零壹号中餐厅",
+      "source": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen/dining",
+      "reviewedOn": "2026-10-20",
+      "reviewMethod": "official-website-cross-check",
+      "location": "壹佰零壹号中餐厅",
+      "hours": [
+        [
+          390,
+          630
+        ],
+        [
+          690,
+          870
+        ],
+        [
+          1050,
+          1290
+        ]
+      ],
+      "fee": "费用与入住权益请向酒店咨询",
+      "routeAvailable": "schematic-only",
+      "pending": [
+        "当天实际开放",
+        "费用与入住权益",
+        "真实入口及路线",
+        "剩余预约名额"
+      ],
+      "changes": "关键字段与官网交叉核对，未知项保留"
+    },
+    {
+      "hotelId": "andaz-xiamen",
+      "hotel": "厦门安达仕酒店",
+      "id": "pool",
+      "name": "室外恒温泳池",
+      "source": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen/faqs",
+      "reviewedOn": "2026-10-20",
+      "reviewMethod": "official-website-cross-check",
+      "location": "L层",
+      "hours": null,
+      "fee": "费用与入住权益请向酒店咨询",
+      "routeAvailable": "schematic-only",
+      "pending": [
+        "当天实际开放",
+        "费用与入住权益",
+        "真实入口及路线",
+        "剩余预约名额"
+      ],
+      "changes": "关键字段与官网交叉核对，未知项保留"
+    },
+    {
+      "hotelId": "andaz-xiamen",
+      "hotel": "厦门安达仕酒店",
+      "id": "andaz-spa",
+      "name": "水疗护理",
+      "source": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen/faqs",
+      "reviewedOn": "2026-10-20",
+      "reviewMethod": "official-website-cross-check",
+      "location": "酒店内，具体楼层与入口未取得",
+      "hours": null,
+      "fee": "费用与入住权益请向酒店咨询",
+      "routeAvailable": false,
+      "pending": [
+        "当天实际开放",
+        "费用与入住权益",
+        "真实入口及路线",
+        "剩余预约名额"
+      ],
+      "changes": "依据凯悦FAQ新增独立酒店水疗，不复用七尚资料"
+    },
+    {
+      "hotelId": "andaz-xiamen",
+      "hotel": "厦门安达仕酒店",
+      "id": "gym",
+      "name": "健身中心",
+      "source": "https://www.hyatt.com/andaz/en-US/xmnaz-andaz-xiamen/faqs",
+      "reviewedOn": "2026-10-20",
+      "reviewMethod": "official-website-cross-check",
+      "location": "2层",
+      "hours": null,
+      "fee": "费用与入住权益请向酒店咨询",
+      "routeAvailable": "schematic-only",
+      "pending": [
+        "当天实际开放",
+        "费用与入住权益",
+        "真实入口及路线",
+        "剩余预约名额"
+      ],
+      "changes": "关键字段与官网交叉核对，未知项保留"
+    }
+  ],
+  "limitations": [
+    "网址内容可变化；未联系酒店",
+    "资料范围只覆盖本表列项",
+    "运营当天状态、权益与真实路线未核验"
+  ]
+}

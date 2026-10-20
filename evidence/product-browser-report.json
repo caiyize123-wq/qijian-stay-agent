@@ -1,0 +1,17 @@
+{
+  "checks": [
+    "Homepage has one discovery, three actions and no audit jargon or stacked assistant bar",
+    "Switching hotels loads a genuinely separate stay without copying favorites or plans",
+    "Andaz experiences, opening hours, official sources and phone are independent of Lohkah",
+    "Real Bailian planning works in the second hotel and uses only its own sources",
+    "Real FlyAI hotel lookup follows the selected Andaz context",
+    "Round-trip switching restores each hotel plan and favorites unchanged",
+    "Unknown hotel is rejected rather than silently showing Seven Shang data",
+    "360/390/430px mobile: primary actions are clear, hotels switch and search stays accessible"
+  ],
+  "errors": [],
+  "andazFlyaiNames": [
+    "厦门安达仕酒店"
+  ],
+  "ok": true
+}
